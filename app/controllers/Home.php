@@ -1,7 +1,7 @@
 <?php
 
-class Home {
+class Home extends Controller{
 	public function index(){
-		echo 'home/index';
+		$this->view('home/index');//memanggil file yang ada di folder views ke forlder home, namanya index.php
 	}
 }
