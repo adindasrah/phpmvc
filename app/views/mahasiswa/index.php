@@ -81,12 +81,13 @@
 
 			 <div class="form-group">
 			    <label for="email">Email</label>
-			    <input type="email" class="form-control" id="email" name ="email">
+			    <input type="email" class="form-control" id="email" name ="email" >
 			 </div>
 
 			  <div class="form-group">
 			    <label for="jurusan">Jurusan</label>
 			    <select class="form-control" id="jurusan" name="jurusan">
+			      <option value="Teknik Informatika">Teknik Informatika</option>
 			      <option value="Teknik Mesin">Teknik Mesin</option>
 			      <option value="Teknik Industri">Teknik Industri</option>
 			      <option value="Teknik Pangan">Teknik Pangan</option>
